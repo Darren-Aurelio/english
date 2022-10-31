@@ -1,0 +1,249 @@
+*, 
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.fContainer {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.firstheading {
+    margin: 80px 44%;
+    padding: 0px 0px 0px 25px;
+    font-size: 16px;
+    transform: translate(10px, 124px);
+}
+
+.secondheading {
+    margin: 30px 18%;
+    padding: 0px 0px 0px 23px;
+    font-size: 32px;
+}
+
+.byline {
+    font-size: 14px;
+    color: #6E6E6E;
+    margin: -33px 39%;
+    padding: 0px 0px 0px 22px;
+}
+
+.text4{
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box{
+    border: 1px solid #e6e6e6;
+    border-top: 4px solid var(--theme-primary);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 0px 335px;
+    height: 52%;
+    width: 45%;
+    font-size: 10px;
+}
+
+.caption {
+    margin: -132px 25%;
+    padding: 20px;
+    font-size: 11px;
+    color: #6E6E6E
+}
+
+.pic{
+    margin:20px;
+    padding: 20px;
+    width: 98% !important;
+}
+
+.box1{
+    border: 1px solid #e6e6e6;
+    border-top: 4px solid var(--theme-primary);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 110px 17%;
+    height: 530px;
+    width: 60%;
+}
+
+.wrapper {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px;
+    width: 97.8%;
+    height: 80px;
+    background-color: #222; 
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    /* text-transform: capitalize; */
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+
+.lastname {
+    color: crimson;
+    font-weight: 400;
+    padding-left: 4px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation > li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation > li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.icon {
+    color: white;
+}
+
+.button1 {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    border-radius: 8px;
+    min-height: 27px;
+    min-width: 60px;
+    background-color: #222;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.text1 {
+    color: white;
+}
+
+.navigation>li>a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out
+}
+
+.navigation>li>button>span:hover {
+    color: crimson;
+    transition: all .3s ease-in-out
+}
+
+.email {
+    list-style-type: none;
+}
+
+.active {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+}
+
+.active:hover {
+    color: white !important;
+}
+
+footer {
+    position: absolute;
+    bottom: -150%;
+    left: 0;
+    right: 0;
+    background: #222;
+    height: auto;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    padding-top: 40px;
+    color: #fff;
+
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a svg{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover svg{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
